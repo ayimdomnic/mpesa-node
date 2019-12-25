@@ -1,2 +1,2 @@
-##UnOffical NodeJs Mpesa Library
+## Un-Official NodeJs M-pesa Library
 
