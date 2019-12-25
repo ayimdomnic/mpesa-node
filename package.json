@@ -1,0 +1,21 @@
+{
+  "name": "node-mpesa-lib",
+  "version": "1.0.0",
+  "description": "A nodeJS wrapper for the mpesa API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Odhiambo Dormnic",
+  "license": "MIT",
+  "dependencies": {
+    "@types/chai": "^4.2.7",
+    "axios": "^0.19.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  }
+}
