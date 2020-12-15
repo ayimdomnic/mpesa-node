@@ -2,6 +2,9 @@ import crypto from "crypto";
 import fs from "fs";
 import path from "path";
 import axios from "axios";
+import dotenv from "dotenv";
+dotenv.config();
+
 /**
  * This Method Computes the security credentials for all Initiator Related Calls
  *
