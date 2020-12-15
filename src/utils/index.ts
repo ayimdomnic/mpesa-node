@@ -3,6 +3,8 @@ import fs from "fs";
 import path from "path";
 import axios from "axios";
 /**
+ * This Method Computes the security credentials for all Initiator Related Calls
+ *
  * @param certPath string
  * @param securityCredential
  * @return string
