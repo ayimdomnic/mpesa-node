@@ -10,9 +10,12 @@
   "license": "MIT",
   "dependencies": {
     "@types/chai": "^4.2.7",
-    "axios": "^0.19.0",
+    "@types/node": "^14.14.13",
+    "axios": "^0.21.0",
     "chai": "^4.2.0",
+    "crypto": "^1.0.1",
     "eslint": "^6.8.0",
+    "fs": "^0.0.1-security",
     "mocha": "^6.2.2",
     "nodemon": "^2.0.2",
     "ts-node": "^8.5.4",

@@ -1,4 +1,4 @@
-export class core {
+export class Core {
     
 }
 

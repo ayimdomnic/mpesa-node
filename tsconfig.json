@@ -4,7 +4,11 @@
     "module": "commonjs",
     "outDir": "lib",
     "sourceMap": true,
-    "declaration": true
+    "declaration": true,
+    "esModuleInterop": true,
+    "types": [
+      "node"
+    ]
   },
   "include": ["./src/**/*"],
   "exclude": ["node_modules", "src/**/*.spec.ts", "src/**/__tests__/*.ts"]
