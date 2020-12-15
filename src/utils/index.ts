@@ -12,7 +12,7 @@ dotenv.config();
  * @param securityCredential
  * @return string
  */
-const computeSecurityCredentials = (certPath: string, securityCredential: string) => {
+ export const computeSecurityCredentials = (certPath: string, securityCredential: string) => {
     const bufferEncryption = Buffer.from(securityCredential);
     const data = fs.readFileSync(path.resolve(certPath));
     const privateKey = String(data);
@@ -30,7 +30,7 @@ const computeSecurityCredentials = (certPath: string, securityCredential: string
  * @param baseUrl {string} - which is the specific endpoint for the Mpesa Api Item in play
  * @return Promise<AxiosInstance>
  */
-const request = async (baseUrl: string) => {
+export const request = async (baseUrl: string) => {
     const credentials = await computeSecurityCredentials("home", "Welcome to My App");
     return axios.create({
         baseURL: baseUrl,

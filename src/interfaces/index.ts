@@ -5,4 +5,5 @@ import './c2b';
 import './stk';
 import './stk_query';
 import './reversal';
-import './transaction_status'
+import './transaction_status';
+import './credentials';
